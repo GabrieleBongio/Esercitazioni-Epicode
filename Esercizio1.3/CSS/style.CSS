@@ -1,0 +1,96 @@
+* {
+    font-family: 'Georgia', serif;
+}
+
+header {
+    text-align: center;
+}
+
+#Logo {
+    margin: 15px;
+    width: 185px;
+}
+
+header p {
+    font-size: 0.72em;
+    color: rgb(0,77,76);
+    background-color: rgb(253,251,241) ;
+    padding: 15px;
+    border-top: 1px solid rgb(255,219,129);
+    margin: 0
+}
+
+article,footer {
+    margin: 0 auto;
+    width: 720px
+}
+
+#Presentazione_Ricetta {
+    margin: 50px auto;
+    text-align: center;
+}
+
+#Nome_ricetta {
+    font-size: 2em;
+    text-align: center;
+    padding: 0 40px
+}
+
+#Sottotitolo {
+    font-weight: normal;
+    font-size: 1em;
+    text-align: left;
+}
+
+#Foto_Ricetta {
+    box-shadow: 5px 5px 20px rgb(0, 0, 0,0.2);
+    border-radius: 10px   
+}
+
+.Autore {
+    color: rgb(172,172,172)
+}
+
+#Featured_in {
+    border-left: 2px solid rgb(255,219,129);
+    line-height: 1em;
+    text-align: left;
+}
+
+#Featured_in p {
+    padding-left: 16px;
+    color: rgb(187,84,34);
+}
+
+a {
+    color: rgb(16,119,119)
+}
+
+.Recipe_section h3 {
+    font-size: 1.5em;
+    font-weight: normal;
+    border-bottom: 2px solid rgb(242,252,252);
+    padding-bottom: 20px;
+}
+
+#Ingredients ul,h5 {
+    line-height: 2em;
+    margin: 0
+}
+
+#Ingredients ul li p{
+    margin: 0;
+    line-height: 1;
+}
+
+#Ingredients ul {
+    margin-bottom: 2em;
+}
+
+#Method p,#Method h5 {
+    padding-left: 40px;
+}
+
+#Method h5 span {
+    font-weight: normal;
+}
