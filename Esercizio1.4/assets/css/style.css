@@ -1,0 +1,223 @@
+/* IMPOSTAZIONI GENERALI */
+body {
+    background-image: url(/Esercitazioni/Esercitazioni-Epicode/Esercizio1.4/assets/img/sfondo.png);
+    background-size: 500px;
+    width: 500px;
+    background-repeat: repeat-y;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid black;
+}
+/* HEADER */
+header {
+    text-align: center;
+    margin: 20px;
+    padding: 40px;
+    font-size: 1.4em;
+    background-image: linear-gradient(rgba(11,159,205,255), rgba(23,120,141,255)) ;
+    box-shadow: 0px 4px 4px rgb(80, 80, 80);
+}
+
+header img {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header p {
+    margin: 40px 0;
+    color: rgb(235, 255, 255);
+}
+
+header a {
+    color: rgb(235, 255, 255);
+    text-decoration: none;
+}
+
+header li {
+    line-height: 1.4em;
+}
+
+/* MAIN */
+main {
+    margin: 20px;
+    border: 2px solid rgb(80, 80, 80);
+    box-shadow: 0px 4px 4px rgb(80, 80, 80);
+    background-color: rgb(255, 255, 255);
+    padding: 40px 20px;
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+article {
+    font-size: 1.4em;
+    line-height: 1.4em;
+}
+
+article h3 {
+    font-size: 1.8em;
+    line-height: 160%;
+    margin-bottom: 40px;
+}
+
+article h5 {
+    color: rgb(160, 169, 179);
+    line-height: 140%;
+    margin-bottom: 40px;
+}
+
+article strong {
+    font-weight: bold;
+    color: rgb(171, 72, 141);
+}
+
+article p {
+    margin-bottom: 40px;
+}
+
+article ul,ol {
+    margin-bottom: 40px;
+    padding: 40px;
+}
+
+article ul li {
+    text-indent: -15px;
+}
+
+.number {
+    text-indent: -24px;
+}
+
+.one {
+    text-indent: -18px;
+}
+
+.tag {
+    background-color: rgb(221, 226, 227);
+    border: 1px solid rgb(162, 170, 164);
+    border-radius: 9px;
+}
+
+article iframe {
+    border-radius: 40px;
+}
+
+/* TABELLE */
+caption {
+    font-weight: bold;
+    font-style: italic;
+}
+
+th {
+    background-color: rgb(62, 110, 205);
+    border: 1px solid rgb(255, 255, 255);
+    color: rgb(235, 255, 255);
+    padding: 20px;
+    text: ;
+}
+
+td {
+    text-align: center;
+    padding: 20px;
+}
+
+table:last-child {
+    border-bottom: 1px solid rgb(62, 110, 205);
+}
+
+.even {
+    background-color: rgb(225, 225, 225);
+    border-bottom: 1px solid rgb(210, 210, 210);
+    border-top: 1px solid rgb(210, 210, 210);
+}
+
+/* FORM */
+section {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    background-color: rgb(225, 225, 225);
+    padding: 20px;
+}
+
+section h2 {
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    font-size: 2em;
+    color: rgb(70, 70, 70)
+}
+
+section p {
+    font-size: 1.4em;
+    margin-bottom: 20px;
+}
+
+#email {
+    border:0;
+    font-size: 1.4em;
+    width: 65%;
+    height: 40px;
+    border-bottom: 1px dashed rgb(70, 70, 70);
+}
+
+#Iscriviti {
+    background-color: rgb(62, 110, 205);
+    width: 29%;
+    height: 40px;
+    border: 0;
+    font-size: 1.4em;
+    color: rgb(235, 255, 255);
+}
+
+/* ELEMENTI NELL' ASIDE */
+#Articoli_correlati h4 {
+    text-align: center;
+    font-size: 1.9em;
+    text-transform: uppercase ;
+    margin-bottom: 40px;
+}
+#Articoli_correlati div {
+    background-color: rgb(225, 225, 225);
+    border: 1px solid rgb(210, 210, 210);
+    font-size: 1.2em;
+    margin: 20px;
+    padding: 20PX;
+}
+
+aside a {
+    text-decoration: none;
+}
+
+aside h6 {
+    color: rgb(12, 156, 205);
+    text-decoration: underline;
+}
+
+.categoria {
+    margin-top: 5px;
+    color: rgb(70, 70, 70);
+}
+
+.Data {
+    margin-top: 30px;
+    color:rgb(80, 80, 80);
+    text-align: right;
+    font-size: 0.8em;
+}
+
+/* FOOTER */
+footer {
+    margin: 20px;
+    background-image: linear-gradient( rgb(21, 100, 117), rgb(58,47,51));
+    color: rgb(235, 255, 255);
+    padding: 20px;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+footer p {
+    margin-bottom: 20px;
+}
+
+footer a {
+    color: rgb(255, 0, 255);
+
+}
