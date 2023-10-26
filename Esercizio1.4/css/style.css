@@ -1,6 +1,6 @@
 /* IMPOSTAZIONI GENERALI */
 body {
-    background-image: url(/Esercitazioni/Esercitazioni-Epicode/Esercizio1.4/assets/img/sfondo.png);
+    background-image: url(sfondo.png);
     background-size: 500px;
     width: 500px;
     background-repeat: repeat-y;
