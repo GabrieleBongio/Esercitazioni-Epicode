@@ -1,0 +1,147 @@
+/* Your styles here */
+body {
+    text-align: center;
+    color: #393d41;
+    font-size: 1.2rem;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.marginbottom {
+    margin-bottom: 5vw;
+}
+
+/*--------------------header--------------------*/
+
+header {
+    background-color: black;
+    padding: 9vw;
+}
+
+header img {
+    width: 40%;
+}
+
+/*--------------------main--------------------*/
+
+.mainchild { 
+    padding: 13vw 7%;
+}
+
+/*--------------------titolo--------------------*/
+
+#titolo {
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover ;
+}
+
+#titolo h1 {
+    font-size: 1.9em;
+    line-height: 1em;
+}
+
+#partiamo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: #f04c2f;
+    color: white;
+    border-radius: 5px;
+    padding: 1em 3em;
+    border: 0;
+    margin-top: 5vw;
+}
+
+/*--------------------sction1--------------------*/
+
+section h4 {
+    margin-bottom: 2.5vw;
+}
+
+#section1image {
+    border-radius: 50%;
+    width: 80%;
+}
+
+/*--------------------testimonianze--------------------*/
+
+.testimonianze {
+    background-color: #e22d0e;
+    color: white;
+}
+
+.testimonianze h2 {
+    color: white;
+    font-size: 1.8em;
+}
+
+.testimonianze q {
+    font-size: 0.9em;
+    font-style: italic;
+}
+
+.author {
+    font-size: 1.1em;
+}
+
+.author_role {
+    font-size: 0.7em;
+}
+
+/*--------------------sction3--------------------*/
+
+.scheda {
+    border: 1px solid #dee1e3;
+    padding-bottom: 7vw;
+    margin-bottom: 7vw;
+    font-size: 0.9em;
+}
+
+.scheda img {
+    width: 100%
+}
+
+.scheda p {
+    padding: 0 2vw;
+}
+
+.scheda h6 {
+    margin: 4vw
+}
+
+/*--------------------footer--------------------*/
+footer {
+    background-color: #25a2c3;
+    color: white;
+    padding: 15%
+}
+
+footer h2 {
+    color: white;
+    font-size: 1.8em;
+
+}
+
+footer ul {
+    list-style-type: none;
+    font-size: 0.9em;
+    margin-bottom: 10vw;
+}
+
+footer a {
+    color: white;
+}
+
+#copy {
+    font-size: 0.7em;
+    border-top: 1px solid white;
+    padding-top: 6vw;
+    margin-top: 5vw;
+}

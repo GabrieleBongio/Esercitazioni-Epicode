@@ -1,0 +1,173 @@
+/* Your styles here */
+body {
+    text-align: center;
+    color: #393d41;
+    font-size: 1vw;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.65;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: #25a2c3;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    line-height: 1.5;
+}
+
+.marginbottom {
+    margin-bottom: 1.5vw;
+}
+
+/*--------------------header--------------------*/
+
+header {
+    background-color: black;
+    padding: 1.5vW;
+    padding-left: 3vw;
+    text-align: left;
+}
+
+header img {
+    width: 12vw;
+}
+
+/*--------------------main--------------------*/
+
+.mainchild { 
+    padding: 8vw 10vw;
+}
+
+/*--------------------titolo--------------------*/
+
+#titolo {
+    background-image: url(../images/banner.jpg);
+    background-size: cover;
+    padding: 11vw 28vw;
+    font-size: 1.1em;
+}
+
+#titolo h1 {
+    font-size: 1.9em;
+    line-height: 1em;
+}
+
+#partiamo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    background-color: #f04c2f;
+    color: white;
+    font-size: 0.8em;
+    border-radius: 0.3em;
+    padding: 1em 2em;
+    border: 0;
+    margin-top: 1.7vw;
+}
+
+/*--------------------sction1--------------------*/
+section h4, section p {
+    text-align: left;
+    font-size: 1.4em;
+    margin-bottom: 0.5vw;
+}
+
+#section1image {
+    border-radius: 50%;
+    width: 30vw;
+    margin: 0 5vw 0 10vw;
+    float: left;
+}
+
+/*--------------------testimonianze--------------------*/
+
+.testimonianze {
+    background-color: #e22d0e;
+    color: white;
+    font-size: 2em;
+}
+
+.testimonianze h2 {
+    color: white;
+}
+
+.testimonianze q {
+    font-style: italic;
+    line-height: 4;
+}
+
+.author {
+    text-align: center;
+    font-size: 0.7em;
+    line-height: 1.1;
+}
+
+.author_role {
+    text-align: center;
+    font-size: 0.4em;
+}
+
+/*--------------------sction3--------------------*/
+
+#schede {
+    padding: 8vw 8vw;
+}
+
+.scheda {
+    border: 1px solid #dee1e3;
+    padding-bottom: 2.5em;
+    font-size: 0.8em;
+    width: 25vw;
+    float: left;
+    margin: 1vw;
+    margin-bottom: 10vw;
+}
+
+.scheda img {
+    width: 100%;
+    height: 16.7vw
+}
+
+.scheda p {
+    padding: 0 1em;
+    text-align: center;
+}
+
+.scheda h6 {
+    margin: 2em;
+    font-size: 1.2em;
+}
+
+/*--------------------footer--------------------*/
+footer {
+    background-color: #25a2c3;
+    color: white;
+    clear: both;
+    font-size: 1.6em;
+    padding: 2.5em;
+}
+
+footer h2 {
+    color: white;
+    font-size: 2em;
+}
+
+footer ul {
+    text-align: left;
+    list-style-type: none;
+    font-size: 0.7em;
+    font-weight: 300;
+    margin: 2.5em auto;
+    margin-bottom: 1.5em;
+    padding-bottom: 1.5em;
+    border-bottom: 1px solid white;
+    width: 18vw;
+    opacity: 0.7;
+}
+
+footer a {
+    color: white;
+}
+
+#copy {
+    font-size: 0.7em;
+    opacity: 0.7
+}
