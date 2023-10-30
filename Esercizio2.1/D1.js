@@ -35,23 +35,23 @@ REGOLE
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var name = "Gabriele"
-console.log (name)
+var name = "Gabriele";
+console.log (name);
 
 /* ESERCIZIO 3
  Scrivi il codice necessario ad effettuare un addizione (una somma) dei numeri 12 e 20.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log (12 + 20)
+console.log (12 + 20);
 
 /* ESERCIZIO 4
  Crea una variable di nome "x" e assegna ad essa il numero 12.
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var x = 12
-console.log (x)
+var x = 12;
+console.log (x);
 
 /* ESERCIZIO 5
   Riassegna un nuovo valore alla variabile "name" già esistente: il tuo cognome.
@@ -59,11 +59,11 @@ console.log (x)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-name = "Bongio"
-console.log (name)
-const a = "Pippo"
-// a = "Pluto" 
-console.log (a)
+name = "Bongio";;
+console.log (name);
+const a = "Pippo";
+// a = "Pluto;" 
+console.log (a);
 
 
 /* ESERCIZIO 6
@@ -71,7 +71,7 @@ console.log (a)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-console.log (4 - x)
+console.log (4 - x);
 
 /* ESERCIZIO 7
  Crea due variabili: "name1" e "name2". Assegna a name1 la stringa "john", e assegna a name2 la stringa "John" (con la J maiuscola!).
@@ -80,8 +80,8 @@ console.log (4 - x)
 */
 
 /* SCRIVI QUI LA TUA RISPOSTA */
-var name1 = "john"
-var name2 = "John"
-console.log (name1 == name2)
-console.log (name1.toLowerCase == name2.toLowerCase)
+var name1 = "john";
+var name2 = "John";
+console.log (name1 == name2);
+console.log (name1.toLowerCase == name2.toLowerCase);
 
