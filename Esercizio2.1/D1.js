@@ -17,9 +17,8 @@ REGOLE
   Il type number ha come valore un qualsiasi numero, sia intero che decimale, sia positivo che negativo
   gli unici caratteri validi nel type number sono le cifre da 0 a 9 e il . che divide le cifre intere da quelle decimali
   
-  Il type string ha come valore una qualsiasi stringa alfanumerica, questa deve essere indicata con virgolette, singole o doppie, sia all'inizio che alla fine
-  non esistono regole che determinano quale tipo di virgoletta prescegliere, l'unica regola è che le virgolette iniziali e finali devono essere uguali, 
-  per esempio "Hello World!" o 'Hello World!'
+  Il type string ha come valore una qualsiasi stringa di caratteri alfanumerici e caratteri speciali, questa deve essere indicata con virgolette, singole o doppie, sia all'inizio che alla fine
+  non esistono regole che determinano quale tipo di virgoletta prescegliere, l'unica regola è che le virgolette iniziali e finali devono essere uguali, per esempio "Hello World!" o 'Hello World!'
   per inserire un carattere speciale prima di esso deve essere posizionato un \
 
   Il type boolean ha solo due valori possibili: true e false, si possono definire anche tramite operazioni di comparazione tra altri tipi di dati
@@ -28,7 +27,7 @@ REGOLE
 
   Il type undefined ha un solo valore possibile: undefined rappresenta un valore che non esiste e non ha assegnato nessun valore (N.B. null è diverso da undefined)
 
-  Il type object definisce tutti gli altri elementi che possiamo trovare in JavaScript
+  Il type object definisce tutti gli altri elementi che possiamo trovare in JavaScript come gli array e le funzioni
 */
 
 /* ESERCIZIO 2
@@ -63,7 +62,7 @@ console.log (x)
 name = "Bongio"
 console.log (name)
 const a = "Pippo"
-/* a = "Pluto" */
+// a = "Pluto" 
 console.log (a)
 
 
