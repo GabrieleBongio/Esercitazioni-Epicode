@@ -6,8 +6,10 @@ var num1 = 10;
 var num2 = 14;
 if ( num1 > num2 ) {
   console.log(num1)
-} else {
+} else if ( num1 < num2 ) {
   console.log(num2)
+} else {
+  console.log("i due numeri sono uguali")
 }
 
 /* SCRIVI QUI LA TUA RISPOSTA */
