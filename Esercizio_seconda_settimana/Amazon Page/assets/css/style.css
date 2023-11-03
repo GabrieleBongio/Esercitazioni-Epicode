@@ -1,0 +1,155 @@
+/*-------------------- body --------------------*/
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #E9EDEE;
+}
+
+/*-------------------- generic classes --------------------*/
+.logoBackground {
+    background-color: #222F3F;
+}
+
+.navBackground {
+    background-color: #35475A;
+}
+
+.pdrl {
+    padding-left: 1.8vw;
+    padding-right: 1.8vw
+}
+
+.notunderlineda {
+    text-decoration: none;
+}
+
+.mainchild {
+    margin: 1.8vw;
+}
+
+.giftchild {
+    float: left;
+    border-radius: 2vw;
+    box-shadow: 0.8vw 0.8vw 0.4vw #e5eaeedd;
+    width: 21.8%;
+    overflow: hidden;
+    margin: 0 1.5vw;
+    height: 26.5vw;
+}
+
+/*-------------------- header --------------------*/
+header {
+    padding: 0.7vW 0 0.3vw 1.8vw
+}
+
+header img {
+    width: 8vw;
+}
+
+/*-------------------- nav --------------------*/
+nav {
+    height: 2vw;
+    font-size: 0.6em;
+    line-height: 2vw;
+}
+
+nav a {
+    color: #CED5DF;
+}
+
+nav ul {
+    list-style-type: none;
+}
+
+nav li {
+    float: left;
+    padding: 0 1vw;
+}
+
+/*-------------------- #giftCards --------------------*/
+#giftCards {
+    color: #eaeded;
+    background-color: #f56600;
+    text-align: center;
+    font-size: 0.7em;
+    line-height: 2.3vw;
+}
+
+/*-------------------- #HolidayGiftGuides --------------------*/
+#HolidayGiftGuides {
+    color: #EDF2F4;
+    background-image: url(../images/bg-image.png);
+    background-size: contain;
+    text-align: center;
+    font-size: 0.7em;
+    line-height: 0.7em;
+    padding: 3.7vw;
+}
+
+#HolidayGiftGuides h3 {
+    line-height: 2.7em;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+/*-------------------- #Gift --------------------*/
+#Gift {
+    background-color: white;
+    line-height: 2em;
+    font-size: 0.9em;
+    height: 32vw;
+}
+
+.giftchild img {
+    transform: translateX(-20%);
+    height: 100%;
+}
+
+#bimboSpeciale {
+    transform: translateX(-14%);
+}
+
+#Gift h5 {
+    padding-left: 1.5vw;
+    font-weight: bold;
+}
+
+#Gift a {
+    font-size: 0.8em;
+    padding-left: 1.5vw;
+}
+
+/*-------------------- .bottomArticle --------------------*/
+.bottomArticles {
+    margin: 2.7vw 0;
+    text-align: center;
+    font-size: 0.9em;
+    line-height: 1.2em;
+}
+
+.bottomArticles img {
+    width: 100%;
+}
+
+.bottomArticles a {
+    font-size: 0.8em;
+    padding-left: 1.5vw;
+}
+
+/*-------------------- #BackToTop --------------------*/
+#BackToTop {
+    text-align: center;
+    font-weight: bold;
+    line-height: 3em;
+    height: 3em;
+    font-size: 0.7em;
+}
+
+/*-------------------- footer --------------------*/
+footer {
+    padding: 4vw;
+    text-align: center;
+}
+
+footer img {
+    width: 15vw;
+}
