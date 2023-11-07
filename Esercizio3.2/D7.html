@@ -122,6 +122,7 @@
         const listOfA = document.querySelectorAll('a:not(footer a)');
         for (let i = 0; i < listOfA.length; i++) {
           listOfA[i].setAttribute("href", "https://g.co/kgs/N668ca");
+          //Oppure listOfA[i].href = "https://g.co/kgs/N668ca";
         }
       }
       changeUrls();
@@ -176,7 +177,7 @@
       document.querySelector("h1").setAttribute("onclick", "makeItClickable()");
       const makeItClickable = function () {
         var TextH1 = document.querySelector("h1").innerText
-        document.querySelector("h1").innerText = TextH1.slice(0, TextH1.length - 1);
+        document.querySelector("h1").innerText = TextH1.slice(0, - 1);
       }
 
       /* ESERCIZIO 10
@@ -280,25 +281,13 @@
       Crea una funzione che elimini le vocali da ogni elemento testuale della pagina (puoi aiutarti con i nuovi metodi degli array di ES6)
     */
 
-      const ListOfVowels = ["a","e","i","o","u"]
       const deleteVowels = function () {
-        const ListOfEverything = document.querySelectorAll('h1, h2, h3, li, p, a, th, td');
-        for (let i = 0; i < ListOfEverything.length; i++) {
-          const letters = ListOfEverything[i].innerText.split("");
-          var finalText = ""
-          letters.forEach(letter => {
-            var conteggio = 0;
-            ListOfVowels.forEach((vowel) => {
-              if (vowel !== letter) {
-                conteggio++;
-              }
-            })
-            if (conteggio == 5) {
-              finalText += letter;
-            }
-          });
-          ListOfEverything[i].innerText = finalText;
-        }
+        const ListOfEverything = document.querySelectorAll('span, h1, h2, h3, li, p, a, th, td');
+        ListOfEverything.forEach((letters) => {
+          const str = letters.textContent;
+          const StrNoVowels = str.replace(/[aeiou]/gi, "");
+          letters.innerText = StrNoVowels;
+        })
       }
       deleteVowels();
     </script>
