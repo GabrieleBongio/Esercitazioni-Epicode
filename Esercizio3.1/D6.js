@@ -34,11 +34,9 @@ console.log(num);
 */
 
 function soloPari (array) {
-  return array.filter(pari);
-}
-
-function pari (np) {
-  return np%2 == 0;
+  return array.filter((NumeroForsePari) => {
+    return NumeroForsePari % 2 == 0;
+  });
 }
 
 console.log(soloPari(num));
@@ -89,12 +87,10 @@ console.log(aggiungo_n(num, numerino))
   es.: ["EPICODE", "is", "great"] => [7, 2, 5]
 */
 
-var ArrayString = ["Epicode", "One Piece", "Zuzzurellone", "13", "Gabriele"]
+var ArrayString = ["Epicode","Cerbottaniere", "One Piece", "Zuzzurellone", "13", "Gabriele"]
 
 function lunghezzaElementi (array) {
-  return array.map((elemento) => {
-    return elemento.length;
-  })
+  return array.map((elemento) => elemento.length)
 }
 
 console.log(ArrayString)
