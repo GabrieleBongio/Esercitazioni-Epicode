@@ -35,6 +35,7 @@ const randomNumber = function () {
             divDelNumeroEstratto.classList.add("ultimoEstratto");
             document.querySelector("h2").innerHTML = "Il numero estratto è: <b>" + numeroEstratto + "</b>"
             convalidaNumerino(numeroEstratto);
+            victory();
         }
     }   
 }
@@ -54,8 +55,9 @@ var a = 1;
 const generaTabellina = function () {
     const NewTabellina = document.createElement("div");
     NewTabellina.classList.add("tabellina");
-    NewTabellina.innerHTML = "<h2>" + a + "° tabellina</h2>"
-    a += 1
+    NewTabellina.id = "tabellinaNumero" + a;
+    NewTabellina.innerHTML = "<h2>" + a + "° tabellina</h2>";
+    a += 1;
     const numeri = [];
     while (numeri.length < 24) {
         numerino = Math.floor(Math.random() * 90) + 1
@@ -94,5 +96,17 @@ const convalidaNumerino = function (Numero) {
     console.log(caselleDaBarrare);
     for (let i = 0; i<caselleDaBarrare.length; i++) {
         caselleDaBarrare[i].parentElement.classList.add("giaEstratto")
+    }
+}
+
+// Mi sembrava utile aggiungere una funzione che valutava se una tabellina avesse vinto, lo so che non serviva :)
+
+const victory = function () {
+    const NumeroDiTabelline = document.getElementsByClassName("tabellina");
+    for (let i = 0; i < NumeroDiTabelline.length; i++) {
+        const numeriTab = document.querySelectorAll("#tabellinaNumero" + (i + 1) + " .giaEstratto");
+        if (numeriTab.length == 24) {
+            window.alert("LA TABELLINA NUMERO " +  (i+1) + " HA VINTO!!!!!")
+        } 
     }
 }
