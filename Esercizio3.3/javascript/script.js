@@ -14,6 +14,9 @@ function newTask () {
     mainPosition();
 }
 
+// Più comodo con templateliteral  `   `
+// Guardare This
+
 document.getElementById("create").addEventListener("click", newTask, true);
 
 function overlineTask () {
@@ -31,9 +34,8 @@ function controllIcons () {
 }
 
 
-// la parte successiva è fatta per centrare sempre sullo schermo
-// il main, è basata sulle misure del mio schermo non avendo trovato
-// un altro metodo per risolvere la situazione
+// la parte successiva è fatta per centrare sempre la main sullo schermo
+// è basata sulle misure del mio schermo non avendo trovato un altro metodo per risolvere la situazione
 
 function mainPosition () {
     const main = document.getElementsByTagName("main")[0];
