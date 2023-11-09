@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>Tombola</title>
+</head>
+<body>
+    <div id="contenitore">
+        <main>
+            <h1>TOMBOLA</h1>
+            <h2>Per inizare premi sul pulsante "Estrai un numero"</h2>
+            <div id="tabellone">
+                
+            </div>
+            <form id="estrazione">
+                <button id="estrai">ESTRAI UN NUMERO</button>
+            </form>
+            <section id="tabellina">
+                <form>
+                    <label>Con quante tabelline vuoi giocare?</label>
+                    <input type="number" min="1" max="9" id="numeroTabelline" value="1">
+                    <button id="creaTabelline">Crea Tabelline</button>
+                </form>
+            </section>
+        </main>
+    </div>
+    <script src="javascript/script.js"></script>
+</body>
+</html>
