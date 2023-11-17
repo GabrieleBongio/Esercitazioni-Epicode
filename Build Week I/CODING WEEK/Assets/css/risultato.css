@@ -12,9 +12,6 @@ body {
   font-size: 1.2rem;
   line-height: 1.65;
   min-height: 100vh;
-  /* background-image: url('../images/bg.jpg');
-  background-repeat: no-repeat;
-  background-size: cover; */
   background: rgb(22,24,62);
   background: linear-gradient(120deg, rgba(22,24,62,1) 0%, rgba(22,24,62,1) 44%, rgba(91,41,103,1) 52%, rgba(67,35,89,1) 56%, rgba(64,34,87,1) 60%, rgba(110,46,115,1) 67%, rgba(77,38,95,1) 75%, rgba(110,46,115,1) 82%, rgba(101,44,110,1) 84%, rgba(22,24,62,1) 90%);
   color: white;
@@ -36,8 +33,11 @@ header img {
     margin-top: 2%;
 }
 
+body > h3{
+  text-align: center;
+}
+
 h3 {
-  /* margin-top: 20px; */
   font-family: 'Outfit', sans-serif;
   font-size: 60px;
   font-weight: 700;
@@ -79,14 +79,10 @@ section h3 {
 .num {
   margin-top: -60px;
   font-size: 18px;
-
 }
+
 /* ----------------CERCHIO-------------------- */
 .flip{
--moz-transform: scale(-1, 1);
--webkit-transform: scale(-1, 1);
--o-transform: scale(-1, 1);
--ms-transform: scale(-1, 1);
 transform: scale(-1, 1);
 }
 
@@ -97,7 +93,7 @@ transform: scale(-1, 1);
 
 .chart-wrapper {
   padding: 30px;
-  width: 40%;
+  min-width: 640px;
   margin: 0;
   position: relative;
 }
@@ -117,11 +113,11 @@ transform: scale(-1, 1);
   text-align: center;
   text-wrap:wrap;
   word-wrap: break-word;
-  font-size: 1rem;
+  font-size: 1.5rem;
 }
 
 .chart-text-wrapper b {
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: bold;
 }
 
@@ -149,8 +145,7 @@ transform: scale(-1, 1);
   justify-content: center;
 }
 
-
-.circular-chart.epicBlue .circle {
+.circle {
   stroke: #00ffff;
   stroke-width: 4;
 }
@@ -174,11 +169,6 @@ transform: scale(-1, 1);
 }
 
 
-.percentage {
-  fill: #666;
-  text-anchor: middle;
-}
-
 @media screen and (max-width: 840px) {
   section {
     flex-direction: column;
@@ -186,10 +176,6 @@ transform: scale(-1, 1);
     align-items: center;
     gap: 24px;
     margin: 54px 0;
-  }
-
-  .chart-wrapper {
-    width: 100%;
   }
 
   .results-container {
