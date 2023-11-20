@@ -203,9 +203,6 @@ footer a {
   /*HEADER*/
 
   header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
     padding: 1em 0;
     padding-inline-end: 3em;
     font-size: 1.4rem;
@@ -213,12 +210,23 @@ footer a {
   }
 
   header div {
-    display: flex;
-    align-items: center;
+    display: inline-block;
+    width: 80%;
+    text-align: left;
+  }
+
+  header nav {
+    display: inline-block;
+  }
+
+  header div p {
+    display: inline-block;
+    vertical-align: middle;
   }
 
   header div img {
     height: 50px;
+    vertical-align: middle;
   }
 
   header div img,
